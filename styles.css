@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap');
+
+
+#about{
+    /*
+    position: relative;
+    z-index: 0;
+    */
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #F7D7C5;
+}
+
+#menuBackgroundAndHeader {
+    z-index: 1;
+}
+
+#menuBackground{
+    background-color: #F2AD8C;
+    height: 50vh;
+}
+
+#mainHeader{
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+h1{
+    vertical-align: baseline;
+    margin: 0;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 180px;
+    line-height: 152px;
+    color: #33444C;
+    padding-top: auto;
+}
+
+#menuIntro{
+    z-index: 2;
+    margin-top: -273px;
+}
+
+#menu a{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #F7F8F8 !important;
+    padding: 29px 0 0 0;
+}
+
+#introParagraph{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 56px;
+    color: #E89F7D;
+    padding-top: 180px;
+}
+
+#projects{
+    background-color: #F7F8F8;
+}
+
+
+.project{
+    margin: 140px 0 0 0;
+}
+
+
+.projectParagraph{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #33444C;
+}
+
+.buttonSeeMore{
+    height: 56px;
+    width: 190px;
+    background-color: #EC9D79;
+    border: 3px solid #F7D7C5;
+    box-shadow: 8px 8px 0px #F7D7C5;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.085em;
+    color: #F7F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 23px 0 0 0;
+}
