@@ -5,39 +5,30 @@
 
 body{
     background: #EFF2F3;
-}
-
-.container{
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-.container-fluid{
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    background-image: url(/Desert.png);
+    background-position: bottom;
+    background-position-y: -185px;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #about{
     height: 100vh;
-    padding: 0 !important;
-
 }
 
-#rectangle{
-    z-index: 1;
-    height: 50vh;
-    background-image: url(/Rectangle.png);
-}
-
-#menuAndTitle{
-    z-index: 2;
-    position: absolute;
-    top: 0;
-    height: 50vh;
-    width: 1140px;
+ul{
+    height: 288px;
+    background-color: #F2AD8C;
+    padding-bottom: 42px;
+    padding-left: 84px !important;
+    padding-right: 0 !important;
+    padding-top: auto;
+    margin: 0 !important;
 }
 
 .nav{
+    z-index: 1;
     margin-top: auto;
     margin-bottom: 48px;
 }
@@ -53,40 +44,66 @@ body{
     color: #EFF2F3;
 }
 
+#aboutTitleParagraph{
+    z-index: 2;
+    height: 314px;
+    margin-top: -9px;
+}
+
 h1{
-    margin: auto 0 0 0 !important;
     font-family: Karla;
     font-style: normal;
-    font-weight: bold;
-    font-size: 150px;
-    line-height: 152px;
+    font-weight: 500;
+    font-size: 120px;
+    line-height: 104px;
     color: #33444C;
+    height: 48px;
+    padding-bottom: 0;
+    padding-top: auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: auto;
+    margin-top: 0;
 }
 
 #aboutParagraph{
     font-family: Lora;
     font-style: normal;
     font-weight: normal;
-    font-size: 34px;
-    line-height: 56px;
-    color: rgba(51, 68, 76, 0.8);
-    margin-top: 16vh;
+    font-size: 27px;
+    line-height: 48px;
+    color: rgba(51, 68, 76, 0.80);
+    margin-top: auto;
     margin-bottom: 0;
+    padding: 0;
 }
 
 #projects{
-
+    background: #EFF2F3;
+    padding: 0 !important;
 }
 
 #projectsContainer{
-    margin-bottom: 140px;
+    padding-top: 140px;
+    padding-bottom: 140px;
 }
 
 .project{
-    margin: 140px 0 0 0;
+    margin-top: 140px !important;
+    margin-bottom: 140px !important;
 }
 
+h3{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: #33444C;
+}
 
+.projectImage{
+    padding: 0;
+}
 
 .projectParagraph{
     font-family: Lora;
@@ -94,7 +111,8 @@ h1{
     font-weight: normal;
     font-size: 20px;
     line-height: 32px;
-    color: #33444C;
+    color: #33444C95;
+    margin-top: 18px;
 }
 
 .buttonSeeMore{
@@ -115,31 +133,83 @@ h1{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    margin: 23px 0 0 0;
+    margin: 15px 0 0 0;
 }
+
 
 #contact{
-    background-color: #CCDAE0;
-    padding-top: 83px;
+    padding: 0;
 }
 
+#contactBackground{
+    z-index: 2;
+    display: flex;
+}
+
+#blue{
+    background-color: #CCDAE0;
+    position: absolute;
+    width: 50%;
+    height: 675px;
+    background: #CCDAE0;
+}
+
+#transparent{
+    width: auto;
+}
+
+#contactContainer{
+    z-index: 3;
+}
+
+form{
+    background-color: #CCDAE0;
+    padding-left: 0 !important;
+    padding-right: 95px !important;
+    width: 665px !important;
+}
 
 h2{
     font-family: Karla;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 72px;
+    font-size: 38px !important;
+    line-height: 48px;
     color: #33444C;
+    padding: 0 !important;
+    width: 665px !important;
+    margin: 75px 0 27px 0;
+    margin-right: 0 !important;
+}
+
+#name{
+    height: 64px;
+    width: 665px;
+    border: none;
+    border-radius: 0 !important;
+    background-color:#EFF2F3;
+    margin-top: 0px;
     padding: 0 !important;
 }
 
-input{
+#email{
     height: 64px;
+    width: 665px;
     border: none;
     border-radius: 0 !important;
     background-color:#EFF2F3;
     margin-top: 32px;
+    padding: 0;
+}
+
+#message{
+    height: 106px;
+    width: 665px;
+    border: none;
+    border-radius: 0 !important;
+    background-color:#EFF2F3;
+    margin-top: 32px;
+    padding: 0;
 }
 
 ::placeholder{
@@ -147,7 +217,7 @@ input{
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    color: #33444C !important;
+    color: #33444C80 !important;
 }
 
 .form-group{
@@ -161,7 +231,7 @@ input{
     border-radius: 50px !important;
     height: 56px;
     width: 190px;
-    margin: 48px 0 96px 0;
+    margin: 56px 0 64px 0;
     font-family: Karla;
     font-style: normal;
     font-weight: normal;
@@ -171,9 +241,27 @@ input{
     color: #33444C;
 }
 
-footer{
-    height: 96px;
-    background-color: #EFF2F3;
-    text-align: center;
+h4{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
     color: #33444C;
+    margin-bottom: 37px;
+}
+
+#contactInfo{
+    padding-left: 95px !important;
+    padding-right: 0 !important;
+    margin-top: auto;
+    margin-bottom: 156px;
+}
+
+.paragraphContact{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #33444C95;
+    margin-top: 14px;
 }
