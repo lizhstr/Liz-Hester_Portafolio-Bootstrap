@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+
 body{
     background: #EFF2F3;
     background-image: url(/Desert.png);
@@ -29,12 +30,16 @@ div{
 }
 
 .navbar{
-    height: 288px;
-    background-color: #F2AD8C !important;
+    background: transparent !important;
     padding: 0 !important;
 }
 
 .navbar-nav{
+    background-color: #EC9D79;
+    height: 288px;
+}
+
+#navbarLinks{
     margin: auto auto 59px auto;
 }
 
@@ -56,7 +61,11 @@ div{
 }
 
 .nav-link:hover{
-    color: rgb(51,68,76,0.8) !important;
+    color: rgb(247,215,197) !important;
+}
+
+#divAbout{
+    margin-top: 288px;
 }
 
 h1{
@@ -66,6 +75,7 @@ h1{
     font-size: 120px;
     line-height: 104px;
     color: #33444C;
+    margin-top: 0;
 }
 
 #paragraphAbout{
@@ -120,6 +130,7 @@ p{
     width: 168px;
     background-color: #EC9D79;
     border: 3px solid #F7D7C5;
+    box-shadow: 6px 6px 0px #F7D7C5;
     font-family: Karla;
     font-style: normal;
     font-weight: normal;
@@ -137,21 +148,11 @@ p{
 
 .buttonSeeMore:hover{
     text-decoration: none;
-    box-shadow: -6px 6px 0px #F7D7C5;
-    margin: 12px 0 0 3px;
+    color: #F7D7C5 !important;
 }
 
 #divForm{
     background: #CCDAE0;
-}
-
-#contact{
-    background: #EFF2F3;
-    background-image: url(/Desert.png);
-    background-position: bottom;
-    background-position-y: -185px;
-    background-size: 100vw;
-    background-repeat: no-repeat;
 }
 
 form{
@@ -204,21 +205,16 @@ textarea::placeholder{
     border: 3px solid #33444C;
     box-sizing: border-box;
     border-radius: 50px !important;
-    height: 48px;
-    width: 168px;
-    margin: 32px 0 56px 0;
+    height: 56px;
+    width: 190px;
+    margin: 48px 0 64px 0;
     font-family: Karla;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 22px;
     text-transform: uppercase;
     letter-spacing: 0.085em;
     color: #33444C;
-}
-
-#btnSend:hover{
-    color: #EFF2F3;
-    background: #33444C;
 }
 
 #divInfo h2{
@@ -237,7 +233,7 @@ h4{
 }
 
 #divInfo{
-    margin: auto 0 136px 0;
+    margin: auto 0 159px 0;
     padding: 0;
 }
 
@@ -254,6 +250,6 @@ h4{
 }
 
 footer{
-    height: 112px;
+    height: 143px;
 }
 

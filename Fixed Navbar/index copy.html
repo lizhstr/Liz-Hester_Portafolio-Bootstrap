@@ -5,32 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/styles copy.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
     <section id="about">
-        <div id="divNavbar" class="container">
-            <nav class="navbar navbar-light bg-light col-lg-3">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="container">
+        <nav class="container navbar navbar fixed-top navbar-light bg-light">
+            <ul class="navbar-nav mr-auto col-lg-3 offset-9">
+                <div id="navbarLinks">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Content</a>
+                </li>
+                </div>
+              </ul>
+          </nav>
+        <div id="divAbout" class="container">
             <div class="row">
-                <div class="col-md-5 col-lg-4">
+                <div class="col-lg-5">
                     <h1>Liz<br>Hester</h1>
                 </div>
-                <div class="col-lg-7 offset-lg-1 col-md-8 offset-md-4">
+                <div class="col-lg-7">
                     <p id="paragraphAbout">I am UX/UI designer and aspiring frontend developer. Born and raised in West Texas, I currently live in Mexico City, working on projects in both Latin America and the United States.</p>
                 </div>
             </div>
@@ -40,24 +40,24 @@
     <section id="projects">
         <div class="container">
             <div class="row blockProjects">
-                <img class="projectImg" src="/Image Placeholder.png" alt="Project Image" class="col-md-6 col-sm-10 offset-sm-1 col-12">
-                <div class="col-md-5 offset-md-1 col-sm-10 offset-sm-1 col-12">
+                <img class="projectImg" src="/Image Placeholder.png" alt="Project Image" class="col-lg-6">
+                <div class="col-lg-5 offset-lg-1">
                     <h2>Project Title</h2>
                     <p class="paragraphProjects">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas id tenetur aperiam ullam commodi sapiente molestiae, laborum alias perferendis asperiores, sint ratione libero debitis incidunt unde quam error vero. Dolore!</p>
                     <a href="" class="buttonSeeMore">See More</a>
                 </div>  
             </div>
             <div class="row blockProjects">
-                <img class="projectImg" src="/Image Placeholder.png" alt="Project Image" class="col-md-6 col-sm-10 offset-sm-1 col-12">
-                <div class="col-md-5 offset-md-1 col-sm-10 offset-sm-1 col-12">
+                <img class="projectImg" src="/Image Placeholder.png" alt="Project Image" class="col-lg-6">
+                <div class="col-lg-5 offset-lg-1">
                     <h2>Project Title</h2>
                     <p class="paragraphProjects">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas id tenetur aperiam ullam commodi sapiente molestiae, laborum alias perferendis asperiores, sint ratione libero debitis incidunt unde quam error vero. Dolore!</p>
                     <a href="" class="buttonSeeMore">See More</a>
                 </div>  
             </div>
             <div class="row blockProjects" id="projectFinal">
-                <img class="projectImg" src="/Image Placeholder.png" alt="Project Image" class="col-md-6 col-sm-10 offset-sm-1 col-12">
-                <div class="col-md-5 offset-md-1 col-sm-10 offset-sm-1 col-12">
+                <img class="projectImg" src="/Image Placeholder.png" alt="Project Image" class="col-lg-6">
+                <div class="col-lg-5 offset-lg-1">
                     <h2>Project Title</h2>
                     <p class="paragraphProjects">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas id tenetur aperiam ullam commodi sapiente molestiae, laborum alias perferendis asperiores, sint ratione libero debitis incidunt unde quam error vero. Dolore!</p>
                     <a href="" class="buttonSeeMore">See More</a>
@@ -65,10 +65,9 @@
             </div>
         </div>
     </section>
-    <section id="contact">
-        <div class="container">
-        <div class="row">
-            <div id="divForm" class="col-xl-8 col-md-7 col-12">
+    <section id="contact" class="container">
+        <class class="row">
+            <div id="divForm" class="col-lg-8">
             <form>
                 <h3>Interested in working together? <br> Send me a message!</h3>
                 <div>
@@ -94,8 +93,7 @@
                     <li>lizhesteruxui@gmail.com</li>
                 </ul>
               </div>
-            </div>
-        </div>
+            </class>
         <footer></footer>
     </section>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
